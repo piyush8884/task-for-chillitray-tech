@@ -58,11 +58,3 @@ class WebCrawler(scrapy.Spider):
         
     
 
-'''
-a.css('tr.data-table_row__2w7Kn')
-a.css('tr.data-table_row__2w7Kn td.data-table_cell__2OGzJ section a.cells_link__2252j::text').getall()
-len(a.css('tr.data-table_row__2w7Kn td.data-table_cell__2OGzJ p::text').getall())
-a.css('tr.data-table_row__2w7Kn td.data-table_cell__2OGzJ span::text').getall()
-a.css('tr.data-table_row__2w7Kn td.data-table_cell__2OGzJ div.cells_cell-3__1_fE_ ::text').getall()
-
-'''
